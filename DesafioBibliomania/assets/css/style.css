@@ -1,0 +1,43 @@
+body {
+    background-image: url("../img/background-bibliomania.jpg");
+    background-color: #000; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    font-family: 'Merienda', cursive;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.container {
+    margin: 1em;
+    padding:1em;
+}
+ 
+.adicionaLivro {
+   max-width: 300px;
+}
+
+.input {
+    width:200px;
+    padding: 15px;
+    margin: 10px;
+}
+ 
+.button {
+    background-color: red;
+    color:#fff;
+    padding: 15px;
+    width: 200px;
+}
+
+/* .page-title {
+    color: #fff;
+    text-align: center;
+}
+
+.page-subtitle {
+    color: #fff;
+} */

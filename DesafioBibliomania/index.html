@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    
+    <!-- links -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Bibliomania</title>
+
+</head>
+<body>
+    
+    <main>
+        <section class="container">
+            <h1 class="page-title">Bibliomania</h1>
+            <h3 class="page-subtitle">Meus livros favoritos</h3>
+            <div class="livros"></div>
+        </section>
+        <section class="adicionaLivro">
+            <input class="input" id="url" type="url" placeholder="Adicione a url da imagem da capa do livro">
+            <input class="input" id="name" type="text" placeholder="Nome do livro">
+            <button class="button" onclick="adicionaLivro()">Adicionar livro</button>
+        </section>
+        <section id="listaLivros"></section>
+    </main>
+    
+    <script src="assets/js/index.js"></script>
+    
+</body>
+</html>
